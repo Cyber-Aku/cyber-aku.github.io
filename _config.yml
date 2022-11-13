@@ -1,0 +1,80 @@
+site: Gesko
+title: Aku
+greetings: Aku | 悪
+description: Aku's Blog
+lang: en-US
+data-theme: light
+
+author:
+  name: Aku
+  bio: Aku's Blog
+  github:  Cyber-Aku
+  twitter: CyberAku
+
+# Font Settings
+googlewebfonts: family=Play:wght@400;700&family=Noto+Sans+Arabic:wght@200;400&family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,300;1,400;1,500;1,600;1,700;1,900
+
+# URL settings
+url: "https://cyber-aku.github.io" 
+baseurl: "" 
+permalink: pretty
+
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+
+exclude:
+  - .jekyll-cache
+  - .obsidian
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.md
+  - README.md
+  - CONTRIBUTING.md
+  
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-relative-links
+
+collections:
+  pages:
+    output: true
+    permalink: /:name
+  posts:
+    output: true
+    permalink: /blog/:year/:month/:day/:slug
+  
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+relative_links:
+  enabled:     true
+  collections: false
