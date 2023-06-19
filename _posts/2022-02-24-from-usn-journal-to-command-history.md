@@ -48,7 +48,7 @@ As a result, we will have a list of records containing timestamps and a list of 
 
 Using power forensics command I created a small script that helps you to parse and extract the commands and their timestamps.
 
-You can get it from this this [gist](https://gist.github.com/Cyber-Aku/bc060ed41b1c5db512f3048ad2960e1d).
+You can get it from this this [gist](https://gist.github.com/Cyber-Aku/bc060ed41b1c5db512f3048ad2960e1d#file-power_usn-ps1).
 
 <div style="text-align: center">
     <img src="/assets/images/from-usn-journal-to-command-history/example-1.png" width=750 >

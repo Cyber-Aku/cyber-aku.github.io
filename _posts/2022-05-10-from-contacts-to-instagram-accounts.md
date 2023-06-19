@@ -43,7 +43,7 @@ To get the script to work, you need to convert your information to JSON and I ha
     <img src="/assets/images/from-contacts-to-instagram-accounts/contacts.png" width=750 >
 </div>
 
-You can get the code from this [gist](https://gist.github.com/Cyber-Aku/bc060ed41b1c5db512f3048ad2960e1d#file-power_usn-ps1).
+You can get the code from this [gist](https://gist.github.com/Cyber-Aku/610074aa35c7da81623301edfc38f63b#file-ig_cntct_explt-py).
 
 You should get this as output:
 
